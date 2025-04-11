@@ -98,7 +98,7 @@ const returnTable = () => {
                                 item_price: order.item_price,
                                 item_portion: order.item_portion,
                             }));
-                            console.log(user.staff_id)
+                           
 
                             // Navigate to ReturnItem screen
                             navigation.replace("ReturnItem", {
