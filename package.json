@@ -1,0 +1,39 @@
+{
+  "name": "sport-bar",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build": "expo export --platform web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-picker/picker": "2.9.0",
+    "axios": "^1.8.4",
+    "expo": "~52.0.40",
+    "expo-av": "~15.0.2",
+    "expo-checkbox": "~4.0.1",
+    "expo-device": "~7.0.3",
+    "expo-image": "~2.0.7",
+    "expo-linear-gradient": "~14.0.2",
+    "expo-notifications": "~0.29.14",
+    "expo-router": "~4.0.20",
+    "expo-status-bar": "~2.0.1",
+    "moti": "^0.30.0",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-web": "~0.19.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@expo/webpack-config": "^19.0.1",
+    "@react-native-community/cli": "^18.0.0"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
